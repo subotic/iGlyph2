@@ -1,4 +1,5 @@
+language: swift
 os: osx
 
-scripts:
+script:
     - xcodebuild -scheme iGlyph2 build
