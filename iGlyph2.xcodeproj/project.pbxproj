@@ -7,34 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3206994222AE6F700021688F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3273A51F22AE6EB7008C24D6 /* Info.plist */; };
+		3273A51A22AE6E21008C24D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 535160D021B9873C006CA47D /* Assets.xcassets */; };
+		3273A51B22AE6E29008C24D6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 535160E821B987ED006CA47D /* README.md */; };
+		3273A51E22AE6E91008C24D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3273A51C22AE6E91008C24D6 /* Main.storyboard */; };
 		5322406021B98B20008FA083 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5322405F21B98B20008FA083 /* WindowController.swift */; };
 		5322406221B98B8C008FA083 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5322406121B98B8C008FA083 /* Content.swift */; };
 		535160D821B9873C006CA47D /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535160CF21B9873C006CA47D /* Document.swift */; };
-		535160D921B9873C006CA47D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 535160D021B9873C006CA47D /* Assets.xcassets */; };
 		535160DB21B9873C006CA47D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535160D421B9873C006CA47D /* AppDelegate.swift */; };
 		535160E121B987BD006CA47D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535160E021B987BD006CA47D /* ViewController.swift */; };
-		535160E421B987C6006CA47D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 535160E221B987C6006CA47D /* InfoPlist.strings */; };
-		535160E721B987CE006CA47D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 535160E521B987CE006CA47D /* Main.storyboard */; };
-		535160E921B987ED006CA47D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 535160E821B987ED006CA47D /* README.md */; };
-		535160EC21B9886C006CA47D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 535160EA21B9886C006CA47D /* Credits.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2B6258802B624EA000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
-		2B65ADC02B65A84000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
-		5322405F21B98B20008FA083 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WindowController.swift; path = DocumentBasedApp/WindowController.swift; sourceTree = "<group>"; };
-		5322406121B98B8C008FA083 /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Content.swift; path = DocumentBasedApp/Content.swift; sourceTree = "<group>"; };
-		535160CE21B9873C006CA47D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DocumentBasedApp/Info.plist; sourceTree = "<group>"; };
-		535160CF21B9873C006CA47D /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Document.swift; path = DocumentBasedApp/Document.swift; sourceTree = "<group>"; };
-		535160D021B9873C006CA47D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = DocumentBasedApp/Assets.xcassets; sourceTree = "<group>"; };
-		535160D421B9873C006CA47D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = DocumentBasedApp/AppDelegate.swift; sourceTree = "<group>"; };
-		535160D521B9873C006CA47D /* DocumentBasedApp.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = DocumentBasedApp.entitlements; path = DocumentBasedApp/DocumentBasedApp.entitlements; sourceTree = "<group>"; };
-		535160E021B987BD006CA47D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = DocumentBasedApp/ViewController.swift; sourceTree = "<group>"; };
-		535160E321B987C6006CA47D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = DocumentBasedApp/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		535160E621B987CE006CA47D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DocumentBasedApp/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B6258802B624EA000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		2B65ADC02B65A84000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		3273A51D22AE6E91008C24D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3273A51F22AE6EB7008C24D6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5322405F21B98B20008FA083 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		5322406121B98B8C008FA083 /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		535160CF21B9873C006CA47D /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		535160D021B9873C006CA47D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		535160D421B9873C006CA47D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		535160D521B9873C006CA47D /* iGlyph2.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = iGlyph2.entitlements; sourceTree = "<group>"; };
+		535160E021B987BD006CA47D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		535160E821B987ED006CA47D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		535160EB21B9886C006CA47D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = DocumentBasedApp/en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		539C345B219F25BA00F3FCD3 /* DocumentBasedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentBasedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		539C345B219F25BA00F3FCD3 /* iGlyph2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGlyph2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +58,10 @@
 			children = (
 				2B65ADC02B65A84000000001 /* LICENSE.txt */,
 			);
-			name = LICENSE;
 			path = LICENSE;
 			sourceTree = "<group>";
 		};
-		535160CD21B98729006CA47D /* DocumentBasedApp */ = {
+		535160CD21B98729006CA47D /* iGlyph2 */ = {
 			isa = PBXGroup;
 			children = (
 				535160D421B9873C006CA47D /* AppDelegate.swift */,
@@ -75,18 +71,16 @@
 				5322406121B98B8C008FA083 /* Content.swift */,
 				535160DF21B98767006CA47D /* Resources */,
 			);
-			name = DocumentBasedApp;
+			path = iGlyph2;
 			sourceTree = "<group>";
 		};
 		535160DF21B98767006CA47D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				535160CE21B9873C006CA47D /* Info.plist */,
-				535160E521B987CE006CA47D /* Main.storyboard */,
+				3273A51F22AE6EB7008C24D6 /* Info.plist */,
+				3273A51C22AE6E91008C24D6 /* Main.storyboard */,
 				535160D021B9873C006CA47D /* Assets.xcassets */,
-				535160E221B987C6006CA47D /* InfoPlist.strings */,
-				535160EA21B9886C006CA47D /* Credits.rtf */,
-				535160D521B9873C006CA47D /* DocumentBasedApp.entitlements */,
+				535160D521B9873C006CA47D /* iGlyph2.entitlements */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -95,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				535160E821B987ED006CA47D /* README.md */,
-				535160CD21B98729006CA47D /* DocumentBasedApp */,
+				535160CD21B98729006CA47D /* iGlyph2 */,
 				539C345C219F25BA00F3FCD3 /* Products */,
 				2B6259802B62651000000001 /* Configuration */,
 				2B65A7002B65A6C000000001 /* LICENSE */,
@@ -105,7 +99,7 @@
 		539C345C219F25BA00F3FCD3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				539C345B219F25BA00F3FCD3 /* DocumentBasedApp.app */,
+				539C345B219F25BA00F3FCD3 /* iGlyph2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,22 +107,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		539C345A219F25BA00F3FCD3 /* DocumentBasedApp */ = {
+		539C345A219F25BA00F3FCD3 /* iGlyph2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 539C346D219F25BB00F3FCD3 /* Build configuration list for PBXNativeTarget "DocumentBasedApp" */;
+			buildConfigurationList = 539C346D219F25BB00F3FCD3 /* Build configuration list for PBXNativeTarget "iGlyph2" */;
 			buildPhases = (
 				539C3457219F25BA00F3FCD3 /* Sources */,
 				539C3458219F25BA00F3FCD3 /* Frameworks */,
 				539C3459219F25BA00F3FCD3 /* Resources */,
-				311071503110933000000001,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DocumentBasedApp;
+			name = iGlyph2;
 			productName = DocBased;
-			productReference = 539C345B219F25BA00F3FCD3 /* DocumentBasedApp.app */;
+			productReference = 539C345B219F25BA00F3FCD3 /* iGlyph2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -152,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 539C3456219F25BA00F3FCD3 /* Build configuration list for PBXProject "DocumentBasedApp" */;
+			buildConfigurationList = 539C3456219F25BA00F3FCD3 /* Build configuration list for PBXProject "iGlyph2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -165,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				539C345A219F25BA00F3FCD3 /* DocumentBasedApp */,
+				539C345A219F25BA00F3FCD3 /* iGlyph2 */,
 			);
 		};
 /* End PBXProject section */
@@ -175,11 +168,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				535160EC21B9886C006CA47D /* Credits.rtf in Resources */,
-				535160D921B9873C006CA47D /* Assets.xcassets in Resources */,
-				535160E721B987CE006CA47D /* Main.storyboard in Resources */,
-				535160E921B987ED006CA47D /* README.md in Resources */,
-				535160E421B987C6006CA47D /* InfoPlist.strings in Resources */,
+				3206994222AE6F700021688F /* Info.plist in Resources */,
+				3273A51E22AE6E91008C24D6 /* Main.storyboard in Resources */,
+				3273A51B22AE6E29008C24D6 /* README.md in Resources */,
+				3273A51A22AE6E21008C24D6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,28 +193,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		535160E221B987C6006CA47D /* InfoPlist.strings */ = {
+		3273A51C22AE6E91008C24D6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				535160E321B987C6006CA47D /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		535160E521B987CE006CA47D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				535160E621B987CE006CA47D /* Base */,
+				3273A51D22AE6E91008C24D6 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		535160EA21B9886C006CA47D /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				535160EB21B9886C006CA47D /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -280,7 +256,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -336,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -351,17 +327,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = DocumentBasedApp/DocumentBasedApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = iGlyph2/iGlyph2.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "$(SRCROOT)/DocumentBasedApp/Info.plist";
+				DEVELOPMENT_TEAM = V7GQG35M7X;
+				INFOPLIST_FILE = "$(SRCROOT)/iGlyph2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.DocumentBasedApp${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.subotic.iGlyph${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -375,17 +351,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = DocumentBasedApp/DocumentBasedApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = iGlyph2/iGlyph2.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "$(SRCROOT)/DocumentBasedApp/Info.plist";
+				DEVELOPMENT_TEAM = V7GQG35M7X;
+				INFOPLIST_FILE = "$(SRCROOT)/iGlyph2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.DocumentBasedApp${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.subotic.iGlyph${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -395,7 +371,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		539C3456219F25BA00F3FCD3 /* Build configuration list for PBXProject "DocumentBasedApp" */ = {
+		539C3456219F25BA00F3FCD3 /* Build configuration list for PBXProject "iGlyph2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				539C346B219F25BB00F3FCD3 /* Debug */,
@@ -404,7 +380,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		539C346D219F25BB00F3FCD3 /* Build configuration list for PBXNativeTarget "DocumentBasedApp" */ = {
+		539C346D219F25BB00F3FCD3 /* Build configuration list for PBXNativeTarget "iGlyph2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				539C346E219F25BB00F3FCD3 /* Debug */,

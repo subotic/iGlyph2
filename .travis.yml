@@ -1,0 +1,4 @@
+os: osx
+
+scripts:
+    - xcodebuild -scheme iGlyph2 build
